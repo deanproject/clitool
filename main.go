@@ -10,7 +10,9 @@ func main() {
 	slog.SetDefault(logger)
 
 	slog.Info("Hello")
+	urlhealth()
 	readDir()
+
 }
 
 func readDir() {
